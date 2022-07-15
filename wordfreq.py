@@ -30,7 +30,7 @@ class Solution:
         # return: int
         
         # TODO: Write code below to return an int with the solution to the prompt
-        num = hi_string.count("hi")
+        num = hi_string.lower().count("hi")
         return num
 
 def main():
