@@ -30,7 +30,8 @@ class Solution:
         # return: int
         
         # TODO: Write code below to return an int with the solution to the prompt
-        pass
+        num = hi_string.count("hi")
+        return num
 
 def main():
     string1 = input()
